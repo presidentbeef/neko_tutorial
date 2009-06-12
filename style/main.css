@@ -9,12 +9,13 @@ body {
   color: #333;
   font-family: serif;
   padding-top: 4px;
+  background: url('../images/cat.png') top left no-repeat white;
 }
 
 #main {
-  background: white;
-  width: 700px;
-  margin: 0 auto;
+  background: none;
+  width: 600px;
+  margin: 0 auto 0 260px;
 }
 
 #header {
@@ -28,15 +29,15 @@ body {
   color: #aaa;
   letter-spacing: -3px;
   font-size: 3em;
-	text-shadow: #0c0c0c 2px 2px 1px;
+  text-shadow: #0c0c0c 2px 2px 1px;
 }
 
 .a {
   color: red;
 }
 
-#header h1 .a {
-  font-size: 1.4em;
+#header h1 a {
+  text-decoration: none;
 }
 
 #header a img {
@@ -73,8 +74,8 @@ h2 {
 }
 
 h3 {
-  color: #5d5d5d;
   margin-top: 12px;
+  font-size: 17px;
 }
 
 ol, ul, p {
@@ -103,6 +104,7 @@ li {
 code {
   font-size: 1.1em;
   background: #eee;
+  padding: 0px 1px 0px 1px;
 }
 
 pre {
