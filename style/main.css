@@ -91,6 +91,10 @@ ul, ol {
   padding-bottom: 1px;
 }
 
+li {
+  margin-bottom: 2px;
+}
+
 code {
   font-size: 1.1em;
   background: #eee;
