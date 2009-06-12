@@ -9,12 +9,13 @@ layout: default
 
 ## What is this tutorial?
 
-Although Neko is easy to work with, the sparsity of the documentation makes it somewhat difficult to get started. Hopefully, this tutorial can help people get up to speed and working with Neko in a short amount of time.
+Although Neko is easy to work with, the sparsity of the documentation makes it somewhat difficult to get started. Hopefully, this tutorial can help people get up to speed and working with Neko in a short amount of time, as well as providing a bit more exposure for the language.
 
 ## Tutorial Contents
 
-+ [Installation](install.html)
++ [Installation](install.html) - Get up and running
 + [Compilation](compiling.html) - Compiling Neko programs
++ [Walkthough](walk.html) - Starting out, step-by-step
 + [Neko Tools](tools.html) - Using the tools provided by Neko
 + [Basic Neko](basics.html) - The language basics
 + [Using the Console](console.html) - How to use the interpreter

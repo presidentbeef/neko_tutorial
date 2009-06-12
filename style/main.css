@@ -15,7 +15,7 @@ body {
 
 #main {
   background: none;
-  width: 600px;
+  width: 700px;
   margin: 0 auto 0 260px;
 }
 
@@ -76,6 +76,7 @@ h2 {
 
 h3 {
   margin-top: 12px;
+  margin-bottom: 8px;
   font-size: 17px;
 }
 

@@ -89,8 +89,6 @@ This will output an executable file with no extension.
 
 `nekotools boot <bytecode_file>`
 
-_Note: I have not had good luck with this command._
-
 ## nekoml
 
 This program compiles NekoML files.
