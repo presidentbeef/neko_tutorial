@@ -9,6 +9,7 @@ body {
   color: #333;
   font-family: serif;
   padding-top: 4px;
+  /* Original picture from http://www.flickr.com/photos/37prime/2351202246/sizes/o/ */
   background: url('../images/cat.png') top left no-repeat white;
 }
 
