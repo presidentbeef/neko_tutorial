@@ -22,6 +22,7 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 + [Libraries](libs.html) - How to use the available libraries
 + [Modules](modules.html) - Creating and using modules
 + [Interfacing with C](ffi.html) - Writing libraries in C and using them from Neko
++ [Debugging](debug.html) - Common Neko errors
 
 ## Mailing List
 
