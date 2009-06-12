@@ -72,6 +72,11 @@ h2 {
   margin-top: 15px;
 }
 
+h3 {
+  color: #5d5d5d;
+  margin-top: 12px;
+}
+
 ol, ul, p {
   padding: 0 0 10px 10px;
   font-family: verdana, arial, sans-serif;
