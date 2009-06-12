@@ -36,7 +36,7 @@ Functions in Neko are closures which copy their surrounding scope. Local variabl
     var y = 1;
     var f = function(x, z) {
         y = 3;
-	$print(w, "\n"); //prints "4"
+        $print(w, "\n"); //prints "4"
     }
 
     w = 4;
