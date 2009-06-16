@@ -20,8 +20,8 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 + [Basic Neko](basics.html) - The language basics
 + [Using the Console](console.html) - How to use the interpreter
 + [Built-ins](builtins.html) - Overview of the built-in functions
-+ [Libraries](libs.html) - How to use the available libraries
 + [Modules](modules.html) - Creating and using modules
++ [C Libraries](libs.html) - How to use libraries written in C
 + [Interfacing with C](ffi.html) - Writing libraries in C and using them from Neko
 + [Debugging](debug.html) - Common Neko errors
 
