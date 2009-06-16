@@ -15,6 +15,10 @@ Neko comes with many built-in functions, all of which begin with a dollar sign (
 
 Neko has several flow control constructs: `if`, `while`, `do-while`, `switch`, and `goto` are all available.
 
+## Comments
+
+Single line comments start with `//` and multiline comments can be contained within `/*` and `*/`.
+
 ## Variables
 
 Variables may have local, global, or function scope. Variables which use the `var` keyword at their first declaration are local to the current scope and are only available after their declaration. Without the `var` keyword, variables are global.
