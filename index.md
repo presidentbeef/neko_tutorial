@@ -13,16 +13,34 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 
 ## Tutorial Contents
 
+### Getting Started
+
 + [Installation](install.html) - Get up and running
 + [Compilation](compiling.html) - Compiling Neko programs
 + [Walkthough](walk.html) - Starting out, step-by-step
-+ [Neko Tools](tools.html) - Using the tools provided by Neko
 + [Basic Neko](basics.html) - The language basics
++ [Neko Tools](tools.html) - Using the tools provided by Neko
 + [Using the Console](console.html) - How to use the interpreter
+
+### Functions and Libraries
+
 + [Built-ins](builtins.html) - Overview of the built-in functions
 + [Modules](modules.html) - Creating and using modules
 + [C Libraries](libs.html) - How to use libraries written in C
 + [Interfacing with C](ffi.html) - Writing libraries in C and using them from Neko
+
+### Neko Values and Types
+
++ [Objects](objects.html)
++ [Strings](strings.html)
++ [Booleans](booleans.html)
++ [Arrays](arrays.html)
++ [Hashtables](hashtables.html)
++ [Numbers](numbers.html)
++ [Functions](functions.html)
+
+### Handling Problems
+
 + [Debugging](debug.html) - Common Neko errors
 
 ## Mailing List
