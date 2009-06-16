@@ -1,0 +1,5 @@
+---
+title: Booleans
+layout: default
+---
+

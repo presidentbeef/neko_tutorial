@@ -4,6 +4,7 @@ layout: default
 ---
 
 - [Basics](basics.html)
+- [Booleans](booleans.html)
 - [Built-in Functions](builtins.html)
 - [Commandline Tools](tools.html)
 - [Compiling](compiling.html)
