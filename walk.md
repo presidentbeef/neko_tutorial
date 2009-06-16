@@ -3,10 +3,6 @@ title: Walkthrough
 layout: default
 ---
 
-## Notes
-
-In this tutorial, commands which should be entered at the command line look `like this`.
-
 ## Installation
 
 Follow the instructions [here](install.html).
