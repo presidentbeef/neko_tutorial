@@ -3,6 +3,7 @@ title: Site Index
 layout: default 
 ---
 
+- [Arrays](arrays.html)
 - [Basics](basics.html)
 - [Booleans](booleans.html)
 - [Built-in Functions](builtins.html)
@@ -10,6 +11,8 @@ layout: default
 - [Compiling](compiling.html)
 - [Control Flow Constructs](control.html)
 - [Debugging in Neko](debug.html)
+- [Functions](functions.html)
+- [Hashtables](hashtables.html)
 - [Installing Neko](install.html)
 - [Interfacing with C](ffi.html)
 - [Neko Console](console.html)

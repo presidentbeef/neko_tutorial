@@ -1,0 +1,5 @@
+---
+title: Hashtables
+layout: default
+---
+
