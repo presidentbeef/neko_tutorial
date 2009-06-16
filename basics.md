@@ -24,15 +24,15 @@ Single line comments start with `//` and multiline comments can be contained wit
 Variables may have local, global, or function scope. Variables which use the `var` keyword at their first declaration are local to the current scope and are only available after their declaration. Without the `var` keyword, variables are global.
 
 {% highlight javascript %}
-    var x = 1;  //local
-    y = 2;  //global
-    f = function() {
-        z = 3; //global
-        x = 4; //function scope (of previously declared 'x')
-    }
+var x = 1;  //local
+y = 2;  //global
+f = function() {
+z = 3; //global
+x = 4; //function scope (of previously declared 'x')
+}
 
-    f();
-    $print(x, " ", y, " ", z, "\n");  //prints "1 2 3"
+f();
+$print(x, " ", y, " ", z, "\n");  //prints "1 2 3"
 {% endhighlight %}
 
 Uninitialized variables will have the value `null`.
@@ -57,25 +57,29 @@ Strings are arrays of characters. String literals are contained between double q
 
 Functions in Neko are closures which copy their surrounding scope. Local variables declared before the function will be copied into the local scope, while global variables (even those declared after the closure) are accessible via reference. Each instance of a function carries its own environment with local copies of non-global variables.
 
-    var y = 1;
-    var f = function(x, z) {
-        y = 3;
-        $print(w, "\n"); //prints "4"
-    }
+{% highlight javascript %}
+var y = 1;
+var f = function(x, z) {
+    y = 3;
+    $print(w, "\n"); //prints "4"
+}
 
-    w = 4;
-    f(1, 2);
-    $print(y, "\n"); //prints "1"
+w = 4;
+f(1, 2);
+$print(y, "\n"); //prints "1"
+{% endhighlight %}
 
 Neko does not support default arguments.
 
 You can use a variable number of arguments by wrapping a function with `$varargs`:
 
-    f = $varargs(function(args) {
-        $print(args);
-    })
+{% highlight javascript %}
+f = $varargs(function(args) {
+    $print(args);
+})
+{% endhighlight %}
 
-    f(1, 2, 3); //prints "[1,2,3]"
+f(1, 2, 3); //prints "[1,2,3]"
 
 *Note: Since `$varargs` is a call to a C function, it will inhibit tail-call optimization.*
 
@@ -83,12 +87,14 @@ You can use a variable number of arguments by wrapping a function with `$varargs
 
 Objects in Neko are quite simple. They are essentially just a set of fields (instance variables or slots) which may be set and retrieved.
 
-    var obj = $new(null);
+{% highlight javascript %}
+var obj = $new(null);
 
-    obj.a = 1;
-    obj.b = function() { "b" }
-    
-    obj.b();
+obj.a = 1;
+obj.b = function() { "b" }
+
+obj.b();
+{% endhighlight %}
 
 Neko objects, by default, do not have any parent classes. You can set the parent class of an object via the `$objsetproto` method. Neko only supports single inheritance. You can also make a copy or clone of an object by passing in an object to the `$new` method.
 
