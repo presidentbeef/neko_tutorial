@@ -61,7 +61,7 @@ var hello = function(name) {
 hello("Bob");
 {% endhighlight %}
 
-## Creating objects
+## Creating Objects
 
 Objects in Neko are quite simple. They are essentially just a collection of fields, accessible via the dot notation. Continuing our example, we can have the hello function be a field on an object:
 
