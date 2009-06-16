@@ -19,6 +19,7 @@ Neko has several flow control constructs: `if`, `while`, `do-while`, `switch`, a
 
 Variables may have local, global, or function scope. Variables which use the `var` keyword at their first declaration are local to the current scope and are only available after their declaration. Without the `var` keyword, variables are global.
 
+{% highlight ruby %}
     var x = 1;  //local
     y = 2;  //global
     f = function() {
@@ -28,6 +29,25 @@ Variables may have local, global, or function scope. Variables which use the `va
 
     f();
     $print(x, " ", y, " ", z, "\n");  //prints "1 2 3"
+{% endhighlight %}
+
+Uninitialized variables will have the value `null`.
+
+## Numbers
+
+Numbers in Neko are either 31-bit integers or 64-bit floats.
+
+[Number details](numbers.html)
+
+## Booleans
+
+Neko uses `true` and `false` for boolean values. Also, `null` is considered to be false.
+
+## Strings
+
+Strings are arrays of characters. String literals are contained between double quotes ("). 
+
+[String details](strings.html)
 
 ## Functions
 
@@ -57,7 +77,7 @@ You can use a variable number of arguments by wrapping a function with `$varargs
 
 ## Objects
 
-Objects in Neko are quite simple. They are essentially just a set of fields (instance variables) which may be set and retrieved.
+Objects in Neko are quite simple. They are essentially just a set of fields (instance variables or slots) which may be set and retrieved.
 
     var obj = $new(null);
 
@@ -69,6 +89,8 @@ Objects in Neko are quite simple. They are essentially just a set of fields (ins
 Neko objects, by default, do not have any parent classes. You can set the parent class of an object via the `$objsetproto` method. Neko only supports single inheritance. You can also make a copy or clone of an object by passing in an object to the `$new` method.
 
 Note that, when using any of the built-in functions for manipulating objects, arguments which are field names must be hashed using the `$hash` method.
+
+[Object details](objects.html)
 
 ## Manipulating Values
 
