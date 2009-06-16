@@ -19,7 +19,7 @@ Neko has several flow control constructs: `if`, `while`, `do-while`, `switch`, a
 
 Variables may have local, global, or function scope. Variables which use the `var` keyword at their first declaration are local to the current scope and are only available after their declaration. Without the `var` keyword, variables are global.
 
-{% highlight ruby %}
+{% highlight javascript %}
     var x = 1;  //local
     y = 2;  //global
     f = function() {
