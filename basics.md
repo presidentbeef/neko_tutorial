@@ -89,9 +89,9 @@ You can use a variable number of arguments by wrapping a function with `$varargs
 f = $varargs(function(args) {
     $print(args);
 })
-{% endhighlight %}
 
 f(1, 2, 3); //prints "[1,2,3]"
+{% endhighlight %}
 
 *Note: Since `$varargs` is a call to a C function, it will inhibit tail-call optimization.*
 
