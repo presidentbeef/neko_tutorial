@@ -28,3 +28,22 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 ## Mailing List
 
 The mailing list for Neko (unrelated to this website) is available [here](http://nekovm.org/ml).
+
+## More Information
+
++ [Neko Homepage](http://nekovm.org/)
++ Search the Neko documentation:
+<form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="003087918851305765833:anm3_g9zr04" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="31" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="http://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=en"></script>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
