@@ -17,7 +17,9 @@ Make sure you can run Neko from the commandline by trying the commands `neko` an
 
 Create a new file called *hello.neko*. In that file, put the following:
 
-    $print("Hello, Neko!\n");
+{% highlight javascript %}
+$print("Hello, Neko!\n");
+{% endhighlight %}
 
 Save the file. From the commandline, first make sure you are in the same directory as the file you have created.
 
@@ -33,55 +35,64 @@ Characters enclosed in double quotes (") are strings.
 
 The following code wraps the code above in a function:
 
-    function() {
-        $print("Hello, Neko!\n");
-    }
+{% highlight javascript %}
+function() {
+    $print("Hello, Neko!\n");
+}
+{% endhighlight %}
 
 If you compile and run this new code, you will not see anything. That is because we created the function, but did not do anything with it. Since functions are just values (like strings, numbers, booleans, objects, etc.), we can assign it to a variable. Then we will be able to call or invoke it.
 
 Since Neko is a dynamically typed language, variables do not need to be declared with a specific type.
 
-    var hello = function() {
-        $print("Hello, Neko!\n");
-    }
+{% highlight javascript %}
+var hello = function() {
+    $print("Hello, Neko!\n");
+}
 
-    hello();
+hello();
+{% endhighlight %}
 
 Note the use of parentheses to actually call the function. In this case, there are no arguments to pass in, so we simply use an empty pair of parentheses.
 
 What if we wanted to be able to pass in some arguments? Not a problem:
 
-    var hello = function(name) {
-        $print("Hello, ", name, "!\n");
-    }
+{% highlight javascript %}
+var hello = function(name) {
+    $print("Hello, ", name, "!\n");
+}
 
-    hello("Bob");
+hello("Bob");
+{% endhighlight %}
 
 ## Creating objects
 
 Objects in Neko are quite simple. They are essentially just a collection of fields, accessible via the dot notation. Continuing our example, we can have the hello function be a field on an object:
 
-    var hello_object = $new(null);
+{% highlight javascript %}
+var hello_object = $new(null);
 
-    hello_object.hello = function(name) {
-        $print("Hello, ", name, "!\n");
-    }
+hello_object.hello = function(name) {
+    $print("Hello, ", name, "!\n");
+}
 
-    hello_object.hello("Bob");
+hello_object.hello("Bob");
+{% endhighlight %}
 
 
 The `$new` function creates a new object. If the argument to `$new` is null, it will create an empty object. One may also pass in an object to `$new`, which will then return a copy of that object.
 
 Since functions are just values, we also could have created the object like this:
 
-    var hello_object = $new(null);
+{% highlight javascript %}
+var hello_object = $new(null);
 
-    var hello = function(name) {
-        $print("Hello, ", name, "!\n");
-    }
+var hello = function(name) {
+    $print("Hello, ", name, "!\n");
+}
 
-    hello_object.hello = hello;
+hello_object.hello = hello;
 
-    hello_object.hello("Bob");
-
+hello_object.hello("Bob");
+{% endhighlight %}
 
