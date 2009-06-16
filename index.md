@@ -31,13 +31,13 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 
 ### Neko Values and Types
 
-+ [Objects](objects.html)
-+ [Strings](strings.html)
-+ [Booleans](booleans.html)
 + [Arrays](arrays.html)
++ [Booleans](booleans.html)
++ [Functions](functions.html)
 + [Hashtables](hashtables.html)
 + [Numbers](numbers.html)
-+ [Functions](functions.html)
++ [Objects](objects.html)
++ [Strings](strings.html)
 
 ### Handling Problems
 
