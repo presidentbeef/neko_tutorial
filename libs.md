@@ -9,14 +9,20 @@ The standard libraries and the libraries shipped with Neko (e.g., Regexp) are C 
 
 Importing from a library looks like this:
 
-    $loader.loadprim("\[library\]@\[function\]", num_arguments);
+{% highlight javascript %}
+$loader.loadprim("[library]@[function]", num_arguments);
+{% endhighlight %}
 
 For example, to load the `file_open` function from the standard library, which takes two arguments, the call would be:
 
-    var open = $loader.loadprim("std@file_open", 2);
+{% highlight javascript %}
+var open = $loader.loadprim("std@file_open", 2);
+{% endhighlight %}
 
 The imported function can then be used like any other function.
 
 Similarly, if one wished to import the `regexp_new` function from the Regexp library, one would do:
 
-   var new_reg = $loader.loadprim("regexp@regexp_new", 1);
+{% highlight javascript %}
+var new_reg = $loader.loadprim("regexp@regexp_new", 1);
+{% endhighlight %}
