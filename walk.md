@@ -25,7 +25,7 @@ Now you can run your first program using `neko hello`.
 
 This simple program uses the built-in `$print` function, which takes any number of arguments and prints them out to the screen. The semicolon ends the expression. However, semicolons are, in general, optional.
 
-Characters enclosed in double quotes (") are strings.
+Characters enclosed in double quotes (`"`) are strings.
 
 ## Creating Functions
 
