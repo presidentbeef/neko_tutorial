@@ -15,9 +15,21 @@ Neko comes with many built-in functions, all of which begin with a dollar sign (
 
 Neko has several flow control constructs: `if`, `while`, `do-while`, `switch`, and `goto` are all available.
 
+[Control flow details](control.html)
+
 ## Comments
 
 Single line comments start with `//` and multiline comments can be contained within `/*` and `*/`.
+
+{% highlight javascript %}
+//Single line comment
+
+/*
+multiple
+line
+comment
+*/
+{% endhighlight %}
 
 ## Variables
 
