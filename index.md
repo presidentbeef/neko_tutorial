@@ -1,6 +1,6 @@
 ---
 title: Overview
-layout: default
+layout: index 
 ---
 
 ## What is Neko?
@@ -31,6 +31,7 @@ The mailing list for Neko (unrelated to this website) is available [here](http:/
 
 ## More Information
 
++ [Site Index](all.html)
 + [Neko Homepage](http://nekovm.org/)
 + Search the Neko documentation:
 <form action="http://www.google.com/cse" id="cse-search-box">
@@ -41,9 +42,3 @@ The mailing list for Neko (unrelated to this website) is available [here](http:/
     <input type="submit" name="sa" value="Search" />
   </div>
 </form>
-
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
-<script type="text/javascript" src="http://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=en"></script>
-
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
