@@ -7,11 +7,13 @@ layout: default
 
 Neko programs are fairly loose in their structure. Variable declarations, function definitions, and instructions may be essentially placed anywhere. Code outside any functions is at the top-level and will be executed as it is encountered. Some simple programs are shown below.
 
+Braces are used to group together multiple expressions, so they are often optional if only a single expression is used.
+
 ## Built-in Functions
 
 Neko comes with many built-in functions, all of which begin with a dollar sign (`$`). More information about built-ins can be found [here](builtins.html). These functions are always available and may be used anywhere.
 
-## Control Constructs
+## Control Flow Constructs
 
 Neko has several flow control constructs: `if`, `while`, `do-while`, `switch`, and `goto` are all available.
 
@@ -58,6 +60,8 @@ Numbers in Neko are either 31-bit integers or 64-bit floats.
 ## Booleans
 
 Neko uses `true` and `false` for boolean values. Also, `null` is considered to be false.
+
+[Boolean details](booleans.html)
 
 ## Strings
 
