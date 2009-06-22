@@ -111,3 +111,6 @@ var pos = $sfind(s, 6, "ell");
 $print(pos); //prints "12"
 {% endhighlight %}
 
+## Converting to Strings
+
+Any Neko value can be converted to a string using the `$string` function.
