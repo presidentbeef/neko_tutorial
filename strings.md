@@ -68,6 +68,16 @@ $sset(s, 2, 110);
 $print(s); //prints "neno"
 {% endhighlight %}
 
+Strings may also be concatenated using `+`.
+
+{% highlight javascript %}
+var a = "a";
+var b = "b";
+var ab = a + b;
+
+$print(ab); //prints "ab"
+{% endhighlight %}
+
 To copy chunks of one string to another, use the `$sblit` function. This takes a starting position in the destination string, a starting position in the source string, and a length of the substring to copy. Raises an error if anything goes out of bounds.
 
 {% highlight javascript %}
