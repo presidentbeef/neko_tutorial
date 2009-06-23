@@ -5,7 +5,7 @@ layout: default
 
 ## neko
 
-The *neko* command will run a file which contains compiled Neko bytecode. If the file has a `.n`, you can omit it.
+The `neko` command will run a file which contains compiled Neko bytecode. If the file has a `.n`, you can omit it.
 
 `neko <bytecode_file>`
 
@@ -13,7 +13,7 @@ The *neko* command will run a file which contains compiled Neko bytecode. If the
 
 ### Compiling
 
-The primary purpose of *nekoc* is to compile Neko code to Neko bytecode. It will output a file with the file's extension replaced with `.n`.
+The primary purpose of `nekoc` is to compile Neko code to Neko bytecode. It will output a file with the file's extension replaced with `.n`.
 
 `nekoc <source_file>`
 
@@ -23,11 +23,11 @@ Several bytecode files can be joined together into a single file.
 
 `nekoc -link <output_file_name> <bytecode_file> <bytecode_file> ...`
 
-This is very useful if you are planning on building a stand alone executable using *nekotools*.
+This is very useful if you are planning on building a stand alone executable using `nekotools`.
 
 ### Console
 
-There is a read-execute-print loop available using *nekoc*. To use this, type in the code and then `!` to execute it. The results will be shown.
+There is a read-execute-print loop available using `nekoc`. To use this, type in the code and then `!` to execute it. The results will be shown.
 
 `nekoc -console`
 
@@ -47,7 +47,7 @@ Debugging information and global names can be stripped from compiled bytecode. T
 
 ### Prettifying code
 
-*nekoc* can also create a properly formatted version of a source file.
+`nekoc` can also create a properly formatted version of a source file.
 
 `nekoc -p <source_file>`
 
@@ -83,7 +83,7 @@ URLs will be matched to `.n` files in the server directory. For example, http://
 
 ### Standalone executable
 
-It is possible to create standalone executables from Neko bytecode. Note, however, that you will probably still need `libneko.so` or `libneko.dll` unless they are statically linked to *neko*.
+It is possible to create standalone executables from Neko bytecode. Note, however, that you will probably still need `libneko.so` or `libneko.dll` unless they are statically linked to `neko`.
 
 This will output an executable file with no extension.
 
