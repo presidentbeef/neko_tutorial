@@ -47,7 +47,7 @@ Debugging information and global names can be stripped from compiled bytecode. T
 
 ### Prettifying code
 
-`nekoc` can also create a properly formatted version of a source file.
+`nekoc` can also create a properly formatted version of a source file. This command will create a new file. For example, if the source file is named "test.neko", the new file will be called "test2.neko".
 
 `nekoc -p <source_file>`
 
