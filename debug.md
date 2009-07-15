@@ -35,3 +35,22 @@ This is usually the result of calling a built-in function with the wrong type of
 ### Uncaught exception - load.c(176) : Module not found : \[module\_name\]
 
 Neko was unable to load the given file, either from the command line (`neko <name>`) or from a call to loadmodule.
+
+### Stack alignment failure
+
+Find any code that looks like
+
+{% highlight javascript %}
+if(true)
+    var x = 1;
+{% endhighlight %}
+
+and change it to
+
+{% highlight javascript %}
+if(true) {
+    var x = 1;
+}
+
+*Note:* It's the `var` part that does it. So if you can move that outside the `if` block, that will work as well.
+{% endhighlight %}
