@@ -51,6 +51,6 @@ and change it to
 if(true) {
     var x = 1;
 }
+{% endhighlight %}
 
 *Note:* It's the `var` part that does it. So if you can move that outside the `if` block, that will work as well.
-{% endhighlight %}
