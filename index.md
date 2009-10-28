@@ -39,6 +39,10 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 + [Objects](objects.html)
 + [Strings](strings.html)
 
+### Miscellaneous
+
++ [Control Structures](control.html)
+
 ### Handling Problems
 
 + [Debugging](debug.html) - Common Neko errors
