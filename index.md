@@ -41,7 +41,7 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 
 ### Miscellaneous
 
-+ [Control Structures](control.html)
++ [Control Flow](control.html)
 
 ### Handling Problems
 
