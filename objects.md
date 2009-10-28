@@ -125,4 +125,4 @@ Some operations may be overridden using special field names. These are documente
 
 ## More Functions
 
-All functions related to manipulating objects can be found [here](http://nekovm.org/doc/view/builtins).
+All functions related to manipulating objects can be found [here](http://nekovm.org/doc/view/builtins#object).
