@@ -55,7 +55,7 @@ Note that shared Neko libraries should have the `.ndll` extension.
 
 To use the function defined above from Neko, we could use something like the following:
 
-{% highlight c %}
+{% highlight javascript %}
 test = $loader.loadprim("test@test_function", 2);
 
 $print(test(1,2), "\n");
