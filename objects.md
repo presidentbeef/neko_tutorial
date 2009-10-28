@@ -61,7 +61,7 @@ $objcall(myobj, $hash("hello"), $amake(0))
 
 Note that field names need to be hashed before being passed into these functions. The `$hash` function returns a unique integer value for each string, but will always be the same for the same string.
 
-You can also check for the existence of fields and remove them:
+You can also check for the existence of fields and remove them. However, this does not check an object's parent objects or affect them in any way.
 
 {% highlight javascript %}
 var myobj = $new(null)
