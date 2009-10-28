@@ -5,7 +5,7 @@ layout: default
 
 ## Built-in Functions
 
-Neko comes with a considerable number of built-in functions, all of which begin with `$`. Most of these are for manipulating [arrays], [hash tables], [strings], [functions], [numbers], and [objects].
+Neko comes with a considerable number of built-in functions, all of which begin with `$`. Most of these are for manipulating [arrays](arrays.html), [hash tables](hashtables.html), [strings](strings.html), [functions](functions.html), [numbers](numbers.html), and [objects](objects.html).
 
 There are also functions for checking [abstracts](http://nekovm.org/doc/view/builtins#abstract) and some useful [miscellaneous](http://nekovm.org/doc/view/builtins#other) operations.
 
