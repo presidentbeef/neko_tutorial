@@ -42,9 +42,6 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 ### Miscellaneous
 
 + [Control Flow](control.html)
-
-### Handling Problems
-
 + [Debugging](debug.html) - Common Neko errors
 
 ## Mailing List
