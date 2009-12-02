@@ -5,7 +5,7 @@ layout: default
 
 ## C Extensions
 
-It is fairly straightforward to wrap C libraries so they may be accessed from Neko, but there are quite a few details, so this page will only cover getting started. The full documentation is available [here](http://nekovm.org/doc/ffi). 
+It is fairly straightforward to wrap C libraries so they may be accessed from Neko. However, there are quite a few details, so this page will only cover getting started. The full documentation is available [here](http://nekovm.org/doc/ffi). 
 
 Any C code that will be used from Neko needs to include the `neko.h` header and link to the Neko library (`libneko.so`, `libneko.dylib`, or `neko.lib` depending on your platform.)
 
@@ -39,7 +39,9 @@ This C code declares a function that takes two integers and compares them. Of co
 
 First, any function used by Neko should have a return type of `value`. This means it returns a Neko value. Secondly, any parameters will also have type `value`.
 
-There are several macros provided for testing the base Neko types, such as integers. These all begin with `val_is_`. In this example, we retrieve a C integer from a Neko integer using `val_int`. There are similar operations for the other types.
+There are several macros provided for testing the base Neko types, such as integers. These all begin with `val_is_`.
+
+In this example, we retrieve a C integer from a Neko integer using `val_int`. There are similar operations for the other types.
 
 The example then returns a Neko boolean, created using `alloc_bool`. If the arguments are not the correct type, a Neko exception is raised using `failure`. This is the equivalent of Neko's `$throw`.
 
@@ -55,9 +57,9 @@ Note that shared Neko libraries should have the `.ndll` extension.
 
 To use the function defined above from Neko, we could use something like the following:
 
+
 {% highlight javascript %}
 test = $loader.loadprim("test@test_function", 2);
 
 $print(test(1,2), "\n");
 {% endhighlight %}
-
