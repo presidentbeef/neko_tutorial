@@ -59,7 +59,7 @@ To use the function defined above from Neko, we could use something like the fol
 
 
 {% highlight javascript %}
-test = $loader.loadprim("test@test_function", 2);
+test = $loader.loadprim("test&#64;test_function", 2);
 
 $print(test(1,2), "\n");
 {% endhighlight %}
