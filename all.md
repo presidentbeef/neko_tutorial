@@ -3,6 +3,7 @@ title: Site Index
 layout: default 
 ---
 
+- [Accessing Commandline Arguments](cmdargs.html)
 - [Arrays](arrays.html)
 - [Basics](basics.html)
 - [Booleans](booleans.html)
@@ -13,6 +14,7 @@ layout: default
 - [Debugging in Neko](debug.html)
 - [Functions](functions.html)
 - [Hashtables](hashtables.html)
+- [Main Page](index.html)
 - [Installing Neko](install.html)
 - [Interfacing with C](ffi.html)
 - [Neko Console](console.html)
