@@ -9,6 +9,20 @@ The `neko` command will run a file which contains compiled Neko bytecode. If the
 
 `neko <bytecode_file>`
 
+### Interpretive mode
+
+To disable the JIT and only run interpreted code, use
+
+`neko -interp <bytecode_file>`
+
+### Statistics
+
+Some limited statistics are available using
+
+`neko -stats <bytecode_file>`
+
+This will print out how much time is spent in some functions and how many times they are called. It is mostly limited to C function calls.
+
 ## nekoc
 
 ### Compiling
