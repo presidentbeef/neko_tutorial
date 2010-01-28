@@ -44,6 +44,7 @@ Although Neko is easy to work with, the sparsity of the documentation makes it s
 + [Debugging](debug.html) - Common Neko errors
 + [Accessing Commandline Arguments](cmdargs.html)
 + [Control Flow](control.html)
++ [FAQ](faq.html)
 
 ## Mailing List
 

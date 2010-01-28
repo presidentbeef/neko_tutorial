@@ -12,6 +12,7 @@ layout: default
 - [Compiling](compiling.html)
 - [Control Flow Constructs](control.html)
 - [Debugging in Neko](debug.html)
+- [Frequently Asked Questions](faq.html)
 - [Functions](functions.html)
 - [Hashtables](hashtables.html)
 - [Main Page](index.html)
