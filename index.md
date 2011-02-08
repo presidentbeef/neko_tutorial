@@ -63,3 +63,5 @@ The mailing list for Neko (unrelated to this website) is available [here](http:/
     <input type="submit" name="sa" value="Search" />
   </div>
 </form>
+
+<iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&npa=1&bg1=FFFFFF&fc1=5E5E5E&lc1=303030&t=afade-20&o=1&p=8&l=as4&m=amazon&f=ifr&asins=0470122137" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
